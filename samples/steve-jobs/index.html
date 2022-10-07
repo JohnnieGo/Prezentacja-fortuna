@@ -11,17 +11,17 @@
 <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="../../lib/hash.js"></script>
 </head>
-<body>
+<body style = "background-color: rgb(232, 218, 218);">
 <div id="canvas">
-	<h1 style="width: 100%; text-align: center;">bit.ly/broszura-fortuna</h1>
+	<h1 style="width: 100%; text-align: center;">tinyurl.com/fortuna-prez</h1>
 	<div id="book-zoom">
 		<div class="sj-book">
 			<div depth="1" class="hard"> <div class="side"></div> </div>
 			<div depth="1" class="hard front-side"> <div class="depth"></div> </div>
 			<div class="own-size"></div>
 			<div class="own-size even"></div>
-			<div class="hard fixed back-side p41"> <div class="depth"></div> </div>
-			<div class="hard p42"></div>
+			<div class="hard fixed back-side p61"> <div class="depth"></div> </div>
+			<div class="hard p62"></div>
 		</div>
 	</div>
 	<div id="slider-bar" class="turnjs-slider">
@@ -182,7 +182,7 @@ function loadApp() {
 		autoCenter: true,
 		gradients: true,
 		duration: 1000,
-		pages: 42,
+		pages: 62,
 		when: {
 			turning: function(e, page, view) {
 				
@@ -221,9 +221,9 @@ function loadApp() {
 					$('.sj-book .p2').removeClass('fixed');
 
 				if (page<book.turn('pages'))
-					$('.sj-book .p41').addClass('fixed');
+					$('.sj-book .p61').addClass('fixed');
 				else
-					$('.sj-book .p41').removeClass('fixed');
+					$('.sj-book .p61').removeClass('fixed');
 
 				Hash.go('page/'+page).update();
 					
