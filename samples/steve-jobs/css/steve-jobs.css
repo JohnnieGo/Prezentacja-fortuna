@@ -10,7 +10,7 @@
 body, ul, table, form{
 	margin:0;
 	padding:0;
-	overflow:hidden;
+	/* overflow:hidden; */
 }
 
 .animated{
@@ -25,6 +25,7 @@ body, ul, table, form{
 	width: 960px;
 	height: 600px;
 	margin: 100px auto;
+	margin-top: 20px;
 }
 
 #book-zoom{
@@ -103,7 +104,7 @@ body, ul, table, form{
 }
 
 .sj-book .book-content p{
-	text-indent: 18px;
+	text-indent: 0px;
 	margin: 20px 0;
 	line-height: 22px;
 }
@@ -268,21 +269,21 @@ body, ul, table, form{
 }
 
 .sj-book .even{
-	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
-	background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
-	background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #edede9), color-stop(1, #dadada));
+	background-image:-webkit-linear-gradient(left, #edede9 95%, #dadada 100%);
+	background-image:-moz-linear-gradient(left, #edede9 95%, #dadada 100%);
+	background-image:-ms-linear-gradient(left, #edede9 95%, #dadada 100%);
+	background-image:-o-linear-gradient(left, #edede9 95%, #dadada 100%);
+	background-image:linear-gradient(left, #edede9 95%, #dadada 100%);
 }
 
 .sj-book .odd{
-	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #fff), color-stop(1, #cacaca));
-	background-image:-webkit-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-moz-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-ms-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:-o-linear-gradient(right, #fff 95%, #cacaca 100%);
-	background-image:linear-gradient(right, #fff 95%, #cacaca 100%);
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #edede9), color-stop(1, #cacaca));
+	background-image:-webkit-linear-gradient(right, #edede9 95%, #cacaca 100%);
+	background-image:-moz-linear-gradient(right, #edede9 95%, #cacaca 100%);
+	background-image:-ms-linear-gradient(right, #edede9 95%, #cacaca 100%);
+	background-image:-o-linear-gradient(right, #edede9 95%, #cacaca 100%);
+	background-image:linear-gradient(right, #edede9 95%, #cacaca 100%);
 }
 
 .sj-book .loader{

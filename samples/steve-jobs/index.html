@@ -11,9 +11,9 @@
 <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
 <script type="text/javascript" src="../../lib/hash.js"></script>
 </head>
-<body style="background-image: url('/samples/magazine/pics/arrows.png')">
-
+<body>
 <div id="canvas">
+	<h1 style="width: 100%; text-align: center;">bit.ly/broszura-fortuna</h1>
 	<div id="book-zoom">
 		<div class="sj-book">
 			<div depth="1" class="hard"> <div class="side"></div> </div>
@@ -25,16 +25,26 @@
 		</div>
 	</div>
 	<div id="slider-bar" class="turnjs-slider">
-
 		<div id="slider"></div>
 	</div>
-	
+	<div style="display: flex; flex-direction: column; align-items: center; height: fit-content; padding-bottom: 100px;">
+		<div>
+			<h1><i>Fortuna abo szczęście</i> kiedyś i dziś, od starego druku do aplikacji</h1>
+				<p>Interaktwna prezentacja mająca na celu przybliżenie dziejów <i>Fortuny abo szczęścia</i> – zbioru wróżb Stanisława z Bochnie – renesansowego poety i nadwornego kleryka Zygmunta Augusta.</p>
+				<p>Prezentacja przygotowana została z użyciem biblioteki <a href="http://www.turnjs.com">turn.js</a>.</p>
+				<h2>Przydatne linki:</h2>
+				<div style="display: flex; flex-direction: column;">
+						<a target="_blank" href="https://www.digitale-sammlungen.de/en/view/bsb00117329?page=1,2"><i>Fortuna abo szczęście</i> – wersja cyfrowa w Bayerische Staatsbibliothek</a>
+						<a target="_blank" href="https://johnniego.github.io/Fortuna-abo-szczescie/">Wersja Web aplikacji</a>
+						<a target="_blank" href="https://play.google.com/store/apps/details?id=com.fortuna.fortunaalboszczcie">Wersja aplikacji w Google Play</a>
+				</div>
+		</div>		
+	</div>
+	<footer style="text-align: center; padding-bottom: 10px;">Jan Żaborowski 2022</footer>
 
 </div>
 
-<div style="display: flex; flex-direction: column; align-items: center; height: fit-content;">
-	<h1>Fortuna abo szczęście kiedyś i dziś, od starego druku do aplikacji</h1>
-	Jest to interaktwna prezentacja, mająca na celu przybliżenie dziejów <i>Fortuny abo szczęścia</i> – zbioru wróżb Stanisława z Bochnie – renesansowego poety i nadwornego kleryka Zygmunta Augusta.</div>
+
 <script type="text/javascript">
 
 function loadApp() {
