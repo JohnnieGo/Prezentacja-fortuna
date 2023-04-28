@@ -5,4 +5,4 @@ Presentation for a workshop with high school students, made with <a href="http:/
 
 Language: Polish
 
-<a href="https://johnniego.github.io/prezentacja-fortuna/samples/steve-jobs/" target="_blank">Link</a>.
+<a href="https://johnniego.github.io/Prezentacja-fortuna/" target="_blank">Link</a>.
